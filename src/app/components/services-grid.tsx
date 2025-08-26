@@ -3,6 +3,7 @@
 import { Card, CardContent } from "@/shared/components/ui/card";
 import { Truck, Ship, Plane, Package, Warehouse, Globe } from "lucide-react";
 import { useEffect, useRef } from "react";
+import Image from "next/image";
 
 const services = [
   {
@@ -103,9 +104,11 @@ export default function ServicesGrid() {
             >
               <CardContent className="p-0">
                 <div className="relative overflow-hidden rounded-t-lg">
-                  <img
+                  <Image
                     src={service.image || "/placeholder.svg"}
                     alt={service.title}
+                    width={600}
+                    height={128}
                     className="h-32 w-full object-cover transition-transform duration-300 hover:scale-105"
                   />
                 </div>

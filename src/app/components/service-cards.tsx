@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/shared/components/ui/card";
 import { Button } from "@/shared/components/ui/button";
 import { Truck, Ship, Package } from "lucide-react";
 import { useEffect, useRef } from "react";
+import Image from "next/image";
 
 const services = [
   {
@@ -63,9 +64,11 @@ export function ServiceCards() {
             >
               <CardContent className="p-0">
                 <div className="relative overflow-hidden rounded-t-lg">
-                  <img
+                  <Image
                     src={service.image || "/placeholder.svg"}
                     alt={service.title}
+                    width={600}
+                    height={192}
                     className="h-48 w-full object-cover transition-transform duration-300 hover:scale-105"
                   />
                 </div>

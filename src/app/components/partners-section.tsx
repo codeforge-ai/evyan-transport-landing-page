@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useRef } from "react";
+import Image from "next/image";
 
 const partners = [
   {
@@ -74,9 +75,11 @@ export function PartnersSection() {
               className="partner-logo hover-lift animate-scale-in flex items-center justify-center rounded-lg bg-gray-50 p-6 opacity-0"
               style={{ animationDelay: `${index * 150}ms` }}
             >
-              <img
+              <Image
                 src={partner.logo || "/placeholder.svg"}
                 alt={`${partner.name} logo`}
+                width={120}
+                height={80}
                 className="max-h-16 max-w-full object-contain grayscale filter transition-all duration-300 hover:grayscale-0"
               />
             </div>
