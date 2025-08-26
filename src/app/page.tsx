@@ -1,11 +1,25 @@
-import { Button } from "@/shared/components/ui/button";
+import { Header } from "@/app/components/header";
+import { Hero } from "@/app/components/hero";
+import { ServiceCards } from "@/app/components/service-cards";
+import { AboutSection } from "@/app/components/about-section";
+import { AdditionalServices } from "@/app/components/additional-services";
+import ServicesGrid from "@/app/components/services-grid";
+import { PartnersSection } from "@/app/components/partners-section";
+import { ContactSection } from "@/app/components/contact-section";
+import { Footer } from "@/app/components/footer";
 
 export default function Home() {
   return (
-    <div className="grid min-h-screen grid-rows-[20px_1fr_20px] items-center justify-items-center gap-16 p-8 pb-20 font-sans sm:p-20">
-      <main className="row-start-2 flex flex-col items-center gap-[32px] sm:items-start">
-        <Button>Hello</Button>
-      </main>
-    </div>
+    <main className="min-h-screen">
+      <Header />
+      <Hero />
+      <ServiceCards />
+      <AboutSection />
+      <ServicesGrid />
+      <AdditionalServices />
+      <PartnersSection />
+      <ContactSection />
+      <Footer />
+    </main>
   );
 }
