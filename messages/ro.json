@@ -1,0 +1,105 @@
+{
+  "aboutSection": {
+    "title": "Despre {company}",
+    "description": "{company} este o companie din România specializată în transport internațional și logistică. Oferim o gamă completă de servicii logistice, inclusiv transport maritim, terestru și aerian.",
+    "clients": "Clienți mulțumiți",
+    "deliveries": "Livrări reușite",
+    "countries": "Țări"
+  },
+  "header": {
+    "modTransport": "Mod transport",
+    "aboutUs": "Despre Noi",
+    "services": "Servicii Transport",
+    "contact": "Contact",
+    "callUs": "Sună-ne",
+    "phone": "Telefon"
+  },
+  "hero": {
+    "fastTransport": "Transport Rapid și",
+    "affordable": "Accesibil",
+    "international": "Internațional",
+    "subtitle": "BDGCARGO - partenerul tău de încredere în domeniul transportului internațional și logisticii",
+    "learnMore": "Află Mai Mult"
+  },
+  "additionalServices": {
+    "sectionTitleMain": "Servicii",
+    "sectionTitleAccent": "Suplimentare",
+    "insuranceTitle": "Asigurări Transport",
+    "insuranceDescription": "Servicii complete de asigurare pentru protecția mărfurilor în transport",
+    "consultingTitle": "Consultanță Logistică",
+    "consultingDescription": "Consultanță specializată pentru optimizarea proceselor logistice",
+    "specializedTransportTitle": "Transport Specializat",
+    "specializedTransportDescription": "Transport specializat pentru mărfuri speciale și oversized"
+  },
+  "contactSection": {
+    "titleMain": "Contactează-ne",
+    "titleAccent": "Acum",
+    "subtitle": "Suntem aici pentru a vă ajuta cu toate nevoile dvs. de transport și logistică",
+    "phoneTitle": "Telefon",
+    "phoneValue": "+40 753 850 578",
+    "emailTitle": "Email",
+    "emailValue": "Office@bdgcargo.com",
+    "addressTitle": "Adresă firmă",
+    "addressValue": "România"
+  },
+  "partnersSection": {
+    "sectionTitleMain": "Partenerii",
+    "sectionTitleAccent": "Noștri",
+    "subtitle": "Colaborăm cu cei mai mari operatori logistici din lume pentru a vă oferi servicii de calitate superioară"
+  },
+  "serviceCards": {
+    "truckTitle": "Transport Terestru",
+    "truckDescription": "Transportul terestru include transportarea mărfurilor cu autocamioane",
+    "truckDetails": "Detalii",
+    "shipTitle": "Transport Maritim și Oceanic",
+    "shipDescription": "Transportul mărfurilor pe mare cu containere",
+    "shipDetails": "Detalii",
+    "planeTitle": "Transport Aerian",
+    "planeDescription": "Livrare rapidă internațională prin transport aerian de mărfuri",
+    "planeDetails": "Detalii"
+  },
+  "servicesGrid": {
+    "truckTitle": "Transport Rutier",
+    "truckDescription": "Transport rutier profesional pentru toate tipurile de mărfuri",
+    "warehouseTitle": "Servicii de Depozitare",
+    "warehouseDescription": "Soluții complete de depozitare și management al stocurilor",
+    "planeTitle": "Transport Aerian",
+    "planeDescription": "Transport aerian rapid pentru mărfuri urgente și de valoare",
+    "customsTitle": "Servicii Vamale",
+    "customsDescription": "Asistență completă pentru procedurile vamale și documentație",
+    "globalTitle": "Logistică Globală",
+    "globalDescription": "Soluții logistice integrate pentru comerțul internațional",
+    "internationalTitle": "Transport Internațional",
+    "internationalDescription": "Servicii de transport către toate destinațiile mondiale",
+    "distributionTitle": "Distribuție și Livrare",
+    "distributionDescription": "Servicii de distribuție și livrare la destinație finală",
+    "trainTitle": "Transport Feroviar",
+    "trainDescription": "Transport de marfă pe cale ferată, soluție economică și eficientă pentru volume mari",
+    "combinedTitle": "Transport Combinat",
+    "combinedDescription": "Soluții multimodale personalizate: marfă livrată prin combinații de rută (rutier, feroviar, maritim, aerian) în funcție de nevoile clientului"
+  },
+  "footer": {
+    "companyName": "BDGCARGO",
+    "companyDescription": "BDGCARGO - compania lider din România în domeniul transportului internațional și logisticii.",
+    "servicesTitle": "Servicii",
+    "serviceMaritime": "Transport Maritim",
+    "serviceTerrestrial": "Transport Terestru",
+    "serviceAerial": "Transport Aerian",
+    "serviceCustoms": "Servicii Vamale",
+    "quickLinksTitle": "Link-uri Rapide",
+    "quickLinkAboutUs": "Despre Noi",
+    "quickLinkCompany": "BDGCARGO",
+    "contactTitle": "Contact",
+    "contactPhone": "+40 753 850 578",
+    "contactEmail": "Office@bdgcargo.com",
+    "contactAddress": "România"
+  },
+  "language": {
+    "en": "Engleză",
+    "da": "Daneză",
+    "no": "Norvegiană",
+    "sv": "Suedeză",
+    "de": "Germană",
+    "ro": "Română"
+  }
+}

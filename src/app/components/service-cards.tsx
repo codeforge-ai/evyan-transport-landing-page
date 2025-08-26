@@ -5,35 +5,35 @@ import { Button } from "@/shared/components/ui/button";
 import { Truck, Ship, Plane } from "lucide-react";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
-
-const services = [
-  {
-    icon: <Truck className="h-8 w-8 text-orange-500" />,
-    title: "Transport Terestru",
-    description:
-      "Transportul terestru include transportarea mărfurilor cu autocamioane",
-    link: "Detalii",
-    image: "/truck-transport-logistics.png",
-  },
-  {
-    icon: <Ship className="h-8 w-8 text-blue-500" />,
-    title: "Transport Maritim și Oceanic",
-    description: "Transportul mărfurilor pe mare cu containere",
-    link: "Detalii",
-    image: "/cargo-ship-maritime-transport.png",
-  },
-  {
-    icon: <Plane className="h-8 w-8 text-sky-500" />,
-    title: "Transport Aerian",
-    description:
-      "Livrare rapidă internațională prin transport aerian de mărfuri",
-    link: "Detalii",
-    image: "/air-freight-logistics.jpg",
-  },
-];
+import { useTranslations } from "next-intl";
 
 export function ServiceCards() {
   const sectionRef = useRef<HTMLElement>(null);
+  const t = useTranslations("serviceCards");
+
+  const services = [
+    {
+      icon: <Truck className="h-8 w-8 text-orange-500" />,
+      title: t("truckTitle"),
+      description: t("truckDescription"),
+      link: t("truckDetails"),
+      image: "/truck-transport-logistics.png",
+    },
+    {
+      icon: <Ship className="h-8 w-8 text-blue-500" />,
+      title: t("shipTitle"),
+      description: t("shipDescription"),
+      link: t("shipDetails"),
+      image: "/cargo-ship-maritime-transport.png",
+    },
+    {
+      icon: <Plane className="h-8 w-8 text-sky-500" />,
+      title: t("planeTitle"),
+      description: t("planeDescription"),
+      link: t("planeDetails"),
+      image: "/air-freight-logistics.jpg",
+    },
+  ];
 
   useEffect(() => {
     const observer = new IntersectionObserver(

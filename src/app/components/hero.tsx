@@ -1,7 +1,9 @@
 import { Button } from "@/shared/components/ui/button";
-import { ArrowRight, Play } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export function Hero() {
+  const t = useTranslations("hero");
   return (
     <section className="relative h-dvh overflow-hidden bg-gradient-to-r from-slate-900/60 to-slate-900/60">
       <div className="absolute inset-0 h-full w-full">
@@ -24,24 +26,22 @@ export function Hero() {
       <div className="relative container mx-auto flex h-full items-center px-4">
         <div className="max-w-2xl text-white">
           <h1 className="mb-6 text-5xl leading-tight font-bold">
-            Transport Rapid și
+            {t("fastTransport")}
             <br />
-            Accesibil
+            {t("affordable")}
             <br />
-            <span className="text-blue-300">Internațional</span>
+            <span className="text-blue-300">{t("international")}</span>
           </h1>
 
-          <p className="mb-8 text-xl text-blue-100">
-            BDGCARGO - partenerul tău de încredere în domeniul transportului
-            internațional și logisticii
-          </p>
+          <p className="mb-8 text-xl text-blue-100">{t("subtitle")}</p>
 
           <div className="flex gap-4">
             <Button
               size="lg"
               className="bg-blue-600 px-8 py-3 text-white hover:bg-blue-700"
             >
-              Află Mai Mult
+              {t("learnMore")}
+              {t("learnMore")}
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>

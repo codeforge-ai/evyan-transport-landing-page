@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const partners = [
   {
@@ -55,6 +56,7 @@ const partners = [
 
 export function PartnersSection() {
   const sectionRef = useRef<HTMLElement>(null);
+  const t = useTranslations("partnersSection");
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -77,11 +79,11 @@ export function PartnersSection() {
     <section ref={sectionRef} className="bg-white py-20">
       <div className="container mx-auto px-4">
         <h2 className="animate-fade-in-up mb-4 text-center text-4xl font-bold opacity-0">
-          Partenerii <span className="text-blue-600">Noștri</span>
+          {t("sectionTitleMain")}{" "}
+          <span className="text-blue-600">{t("sectionTitleAccent")}</span>
         </h2>
         <p className="animate-fade-in-up animate-stagger-1 mx-auto mb-16 max-w-2xl text-center text-gray-600 opacity-0">
-          Colaborăm cu cei mai mari operatori logistici din lume pentru a vă
-          oferi servicii de calitate superioară
+          {t("subtitle")}
         </p>
 
         <div className="grid grid-cols-2 items-center gap-8 md:grid-cols-4">

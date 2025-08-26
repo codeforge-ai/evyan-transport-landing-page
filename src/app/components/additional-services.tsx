@@ -1,32 +1,33 @@
 import { Card, CardContent } from "@/shared/components/ui/card";
 import { Shield, Settings, Truck } from "lucide-react";
-
-const additionalServices = [
-  {
-    icon: <Shield className="h-12 w-12 text-red-500" />,
-    title: "Asigurări Transport",
-    description:
-      "Servicii complete de asigurare pentru protecția mărfurilor în transport",
-  },
-  {
-    icon: <Settings className="h-12 w-12 text-blue-500" />,
-    title: "Consultanță Logistică",
-    description:
-      "Consultanță specializată pentru optimizarea proceselor logistice",
-  },
-  {
-    icon: <Truck className="h-12 w-12 text-green-500" />,
-    title: "Transport Specializat",
-    description: "Transport specializat pentru mărfuri speciale și oversized",
-  },
-];
+import { useTranslations } from "next-intl";
 
 export function AdditionalServices() {
+  const t = useTranslations("additionalServices");
+  const additionalServices = [
+    {
+      icon: <Shield className="h-12 w-12 text-red-500" />,
+      title: t("insuranceTitle"),
+      description: t("insuranceDescription"),
+    },
+    {
+      icon: <Settings className="h-12 w-12 text-blue-500" />,
+      title: t("consultingTitle"),
+      description: t("consultingDescription"),
+    },
+    {
+      icon: <Truck className="h-12 w-12 text-green-500" />,
+      title: t("specializedTransportTitle"),
+      description: t("specializedTransportDescription"),
+    },
+  ];
+
   return (
     <section className="bg-white py-20">
       <div className="container mx-auto px-4">
         <h2 className="mb-16 text-center text-4xl font-bold">
-          Servicii <span className="text-blue-600">Suplimentare</span>
+          {t("sectionTitleMain")}{" "}
+          <span className="text-blue-600">{t("sectionTitleAccent")}</span>
         </h2>
 
         <div className="grid gap-8 md:grid-cols-3">

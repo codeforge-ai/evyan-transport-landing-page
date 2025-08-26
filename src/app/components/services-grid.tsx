@@ -13,82 +13,11 @@ import {
 } from "lucide-react";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
-
-const services = [
-  {
-    icon: <Truck className="h-12 w-12 text-red-500" />,
-    title: "Transport Maritim de Marfă",
-    description: "Transportul mărfurilor pe mare cu containere și nave cargo",
-    image: "/cargo-ship-containers-port.png",
-  },
-  {
-    icon: <Ship className="h-12 w-12 text-blue-500" />,
-    title: "Transport Maritim Internațional",
-    description:
-      "Servicii complete de transport maritim către toate destinațiile",
-    image: "/international-shipping-vessel-ocean.png",
-  },
-  {
-    icon: <Truck className="h-12 w-12 text-green-500" />,
-    title: "Transport Terestru",
-    description:
-      "Transport rutier profesional pentru toate tipurile de mărfuri",
-    image: "/truck-highway-road-transport.png",
-  },
-  {
-    icon: <Warehouse className="h-12 w-12 text-purple-500" />,
-    title: "Servicii de Depozitare",
-    description: "Soluții complete de depozitare și management al stocurilor",
-    image: "/warehouse-storage-logistics-facility.png",
-  },
-  {
-    icon: <Plane className="h-12 w-12 text-indigo-500" />,
-    title: "Transport Aerian",
-    description: "Transport aerian rapid pentru mărfuri urgente și de valoare",
-    image: "/cargo-plane-air-freight-airport.png",
-  },
-  {
-    icon: <Package className="h-12 w-12 text-orange-500" />,
-    title: "Servicii Vamale",
-    description: "Asistență completă pentru procedurile vamale și documentație",
-    image: "/customs-border-control-documentation.png",
-  },
-  {
-    icon: <Globe className="h-12 w-12 text-teal-500" />,
-    title: "Logistică Globală",
-    description: "Soluții logistice integrate pentru comerțul internațional",
-    image: "/global-logistics-world-map-network.png",
-  },
-  {
-    icon: <Ship className="h-12 w-12 text-cyan-500" />,
-    title: "Transport Internațional",
-    description: "Servicii de transport către toate destinațiile mondiale",
-    image: "/international-transport-global-shipping.png",
-  },
-  {
-    icon: <Truck className="h-12 w-12 text-pink-500" />,
-    title: "Distribuție și Livrare",
-    description: "Servicii de distribuție și livrare la destinație finală",
-    image: "/delivery-truck-distribution-center.png",
-  },
-  {
-    icon: <Train className="h-12 w-12 text-indigo-500" />,
-    title: "Transport Feroviar",
-    description:
-      "Transport de marfă pe cale ferată, soluție economică și eficientă pentru volume mari",
-    image: "/rail-freight-transport.png",
-  },
-  {
-    icon: <Layers className="h-12 w-12 text-emerald-500" />,
-    title: "Transport Combinat",
-    description:
-      "Soluții multimodale personalizate: marfă livrată prin combinații de rută (rutier, feroviar, maritim, aerian) în funcție de nevoile clientului",
-    image: "/combined-multimodal-logistics.png",
-  },
-];
+import { useTranslations } from "next-intl";
 
 export default function ServicesGrid() {
   const sectionRef = useRef<HTMLElement>(null);
+  const t = useTranslations("servicesGrid");
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -106,6 +35,63 @@ export default function ServicesGrid() {
 
     return () => observer.disconnect();
   }, []);
+
+  const services = [
+    {
+      icon: <Truck className="h-12 w-12 text-blue-500" />,
+      title: t("truckTitle"),
+      description: t("truckDescription"),
+      image: "/truck-highway-road-transport.png",
+    },
+    {
+      icon: <Warehouse className="h-12 w-12 text-purple-500" />,
+      title: t("warehouseTitle"),
+      description: t("warehouseDescription"),
+      image: "/warehouse-storage-logistics-facility.png",
+    },
+    {
+      icon: <Plane className="h-12 w-12 text-indigo-500" />,
+      title: t("planeTitle"),
+      description: t("planeDescription"),
+      image: "/cargo-plane-air-freight-airport.png",
+    },
+    {
+      icon: <Package className="h-12 w-12 text-orange-500" />,
+      title: t("customsTitle"),
+      description: t("customsDescription"),
+      image: "/customs-border-control-documentation.png",
+    },
+    {
+      icon: <Globe className="h-12 w-12 text-teal-500" />,
+      title: t("globalTitle"),
+      description: t("globalDescription"),
+      image: "/global-logistics-world-map-network.png",
+    },
+    {
+      icon: <Ship className="h-12 w-12 text-cyan-500" />,
+      title: t("internationalTitle"),
+      description: t("internationalDescription"),
+      image: "/international-transport-global-shipping.png",
+    },
+    {
+      icon: <Truck className="h-12 w-12 text-pink-500" />,
+      title: t("distributionTitle"),
+      description: t("distributionDescription"),
+      image: "/delivery-truck-distribution-center.png",
+    },
+    {
+      icon: <Train className="h-12 w-12 text-indigo-500" />,
+      title: t("trainTitle"),
+      description: t("trainDescription"),
+      image: "/rail-freight-transport.png",
+    },
+    {
+      icon: <Layers className="h-12 w-12 text-emerald-500" />,
+      title: t("combinedTitle"),
+      description: t("combinedDescription"),
+      image: "/combined-multimodal-logistics.png",
+    },
+  ];
 
   return (
     <section

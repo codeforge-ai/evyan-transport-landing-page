@@ -1,0 +1,105 @@
+{
+  "aboutSection": {
+    "title": "About {company}",
+    "description": "{company} is a company from Romania in the field of international transport and logistics. We offer a full range of logistics services, including sea, land, and air transport.",
+    "clients": "Satisfied clients",
+    "deliveries": "Successful deliveries",
+    "countries": "Countries"
+  },
+  "header": {
+    "modTransport": "Transport Mode",
+    "aboutUs": "About Us",
+    "services": "Transport Services",
+    "contact": "Contact",
+    "callUs": "Call us",
+    "phone": "Phone"
+  },
+  "hero": {
+    "fastTransport": "Fast and",
+    "affordable": "Affordable",
+    "international": "International Transport",
+    "subtitle": "BDGCARGO - your trusted partner in international transport and logistics",
+    "learnMore": "Learn More"
+  },
+  "additionalServices": {
+    "sectionTitleMain": "Additional",
+    "sectionTitleAccent": "Services",
+    "insuranceTitle": "Transport Insurance",
+    "insuranceDescription": "Comprehensive insurance services for cargo protection during transport",
+    "consultingTitle": "Logistics Consulting",
+    "consultingDescription": "Specialized consulting for optimizing logistics processes",
+    "specializedTransportTitle": "Specialized Transport",
+    "specializedTransportDescription": "Specialized transport for special and oversized cargo"
+  },
+  "contactSection": {
+    "titleMain": "Contact Us",
+    "titleAccent": "Now",
+    "subtitle": "We are here to help you with all your transport and logistics needs",
+    "phoneTitle": "Phone",
+    "phoneValue": "+40 753 850 578",
+    "emailTitle": "Email",
+    "emailValue": "Office@bdgcargo.com",
+    "addressTitle": "Company Address",
+    "addressValue": "Romania"
+  },
+  "partnersSection": {
+    "sectionTitleMain": "Our",
+    "sectionTitleAccent": "Partners",
+    "subtitle": "We collaborate with the world's largest logistics operators to offer you superior quality services"
+  },
+  "serviceCards": {
+    "truckTitle": "Road Transport",
+    "truckDescription": "Road transport includes the movement of goods by trucks",
+    "truckDetails": "Details",
+    "shipTitle": "Sea & Ocean Transport",
+    "shipDescription": "Transporting goods by sea with containers",
+    "shipDetails": "Details",
+    "planeTitle": "Air Transport",
+    "planeDescription": "Fast international delivery by air freight",
+    "planeDetails": "Details"
+  },
+  "servicesGrid": {
+    "truckTitle": "Road Transport",
+    "truckDescription": "Professional road transport for all types of goods",
+    "warehouseTitle": "Warehousing Services",
+    "warehouseDescription": "Complete warehousing and inventory management solutions",
+    "planeTitle": "Air Transport",
+    "planeDescription": "Fast air transport for urgent and valuable goods",
+    "customsTitle": "Customs Services",
+    "customsDescription": "Full assistance for customs procedures and documentation",
+    "globalTitle": "Global Logistics",
+    "globalDescription": "Integrated logistics solutions for international trade",
+    "internationalTitle": "International Transport",
+    "internationalDescription": "Transport services to all worldwide destinations",
+    "distributionTitle": "Distribution & Delivery",
+    "distributionDescription": "Distribution and delivery services to final destination",
+    "trainTitle": "Rail Transport",
+    "trainDescription": "Rail freight, an economical and efficient solution for large volumes",
+    "combinedTitle": "Combined Transport",
+    "combinedDescription": "Custom multimodal solutions: goods delivered by route combinations (road, rail, sea, air) according to client needs"
+  },
+  "footer": {
+    "companyName": "BDGCARGO",
+    "companyDescription": "BDGCARGO - the leading company in Romania in international transport and logistics.",
+    "servicesTitle": "Services",
+    "serviceMaritime": "Maritime Transport",
+    "serviceTerrestrial": "Road Transport",
+    "serviceAerial": "Air Transport",
+    "serviceCustoms": "Customs Services",
+    "quickLinksTitle": "Quick Links",
+    "quickLinkAboutUs": "About Us",
+    "quickLinkCompany": "BDGCARGO",
+    "contactTitle": "Contact",
+    "contactPhone": "+40 753 850 578",
+    "contactEmail": "Office@bdgcargo.com",
+    "contactAddress": "Romania"
+  },
+  "language": {
+    "en": "English",
+    "da": "Danish",
+    "no": "Norwegian",
+    "sv": "Swedish",
+    "de": "German",
+    "ro": "Romanian"
+  }
+}

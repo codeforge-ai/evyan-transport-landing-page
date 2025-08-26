@@ -1,7 +1,10 @@
 import { Phone } from "lucide-react";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { LanguageSwitcher } from "@/app/components/language-switcher";
 
 export function Header() {
+  const t = useTranslations("header");
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
       <div className="container mx-auto px-4">
@@ -34,36 +37,36 @@ export function Header() {
           <nav className="hidden items-center space-x-8 md:flex">
             <Link href="#servicii-logistice" scroll={true}>
               <p className="text-gray-700 transition-colors hover:text-blue-600">
-                Mod transport
+                {t("modTransport")}
               </p>
             </Link>
             <Link href="#despre-noi" scroll={true}>
               <p className="text-gray-700 transition-colors hover:text-blue-600">
-                Despre Noi
+                {t("aboutUs")}
               </p>
             </Link>
             <Link href="#transport-international" scroll={true}>
               <p className="text-gray-700 transition-colors hover:text-blue-600">
-                Servicii Transport
+                {t("services")}
               </p>
             </Link>
-
             <Link href="#contact" scroll={true}>
               <p className="text-gray-700 transition-colors hover:text-blue-600">
-                Contact
+                {t("contact")}
               </p>
             </Link>
           </nav>
 
           {/* Contact Info */}
           <div className="flex items-center space-x-4">
+            <LanguageSwitcher />
             <div className="text-right text-sm">
               <div className="font-semibold text-blue-600">
                 <Link
                   href="tel:+40753850578"
                   className="text-gray-600 transition-colors hover:text-blue-600"
                 >
-                  +40 753 850 578
+                  {t("callUs")}
                 </Link>
               </div>
             </div>

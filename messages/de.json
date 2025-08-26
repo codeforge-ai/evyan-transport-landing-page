@@ -1,0 +1,105 @@
+{
+  "aboutSection": {
+    "title": "Über {company}",
+    "description": "{company} ist ein Unternehmen aus Rumänien, das sich auf internationalen Transport und Logistik spezialisiert hat. Wir bieten ein komplettes Spektrum an Logistikdienstleistungen, einschließlich See-, Land- und Lufttransport.",
+    "clients": "Zufriedene Kunden",
+    "deliveries": "Erfolgreiche Lieferungen",
+    "countries": "Länder"
+  },
+  "header": {
+    "modTransport": "Transportart",
+    "aboutUs": "Über uns",
+    "services": "Transportdienstleistungen",
+    "contact": "Kontakt",
+    "callUs": "Rufen Sie uns an",
+    "phone": "Telefon"
+  },
+  "hero": {
+    "fastTransport": "Schneller und",
+    "affordable": "Preiswerter",
+    "international": "Internationaler Transport",
+    "subtitle": "BDGCARGO - Ihr vertrauenswürdiger Partner für internationalen Transport und Logistik",
+    "learnMore": "Mehr erfahren"
+  },
+  "additionalServices": {
+    "sectionTitleMain": "Zusätzliche",
+    "sectionTitleAccent": "Dienstleistungen",
+    "insuranceTitle": "Transportversicherung",
+    "insuranceDescription": "Umfassende Versicherungsdienstleistungen zum Schutz der Fracht während des Transports",
+    "consultingTitle": "Logistikberatung",
+    "consultingDescription": "Spezialisierte Beratung zur Optimierung von Logistikprozessen",
+    "specializedTransportTitle": "Spezialisierter Transport",
+    "specializedTransportDescription": "Spezialisierter Transport für besondere und übergroße Fracht"
+  },
+  "contactSection": {
+    "titleMain": "Kontaktieren Sie uns",
+    "titleAccent": "Jetzt",
+    "subtitle": "Wir sind hier, um Ihnen bei allen Ihren Transport- und Logistikanforderungen zu helfen",
+    "phoneTitle": "Telefon",
+    "phoneValue": "+40 753 850 578",
+    "emailTitle": "E-Mail",
+    "emailValue": "Office@bdgcargo.com",
+    "addressTitle": "Firmenadresse",
+    "addressValue": "Rumänien"
+  },
+  "partnersSection": {
+    "sectionTitleMain": "Unsere",
+    "sectionTitleAccent": "Partner",
+    "subtitle": "Wir arbeiten mit den größten Logistikunternehmen der Welt zusammen, um Ihnen Dienstleistungen von höchster Qualität zu bieten"
+  },
+  "serviceCards": {
+    "truckTitle": "Straßentransport",
+    "truckDescription": "Straßentransport umfasst die Beförderung von Gütern mit Lastwagen",
+    "truckDetails": "Details",
+    "shipTitle": "See- & Ozeantransport",
+    "shipDescription": "Transport von Gütern auf See mit Containern",
+    "shipDetails": "Details",
+    "planeTitle": "Lufttransport",
+    "planeDescription": "Schnelle internationale Lieferung per Luftfracht",
+    "planeDetails": "Details"
+  },
+  "servicesGrid": {
+    "truckTitle": "Straßentransport",
+    "truckDescription": "Professioneller Straßentransport für alle Arten von Gütern",
+    "warehouseTitle": "Lagerdienstleistungen",
+    "warehouseDescription": "Komplette Lager- und Bestandsverwaltungslösungen",
+    "planeTitle": "Lufttransport",
+    "planeDescription": "Schneller Lufttransport für dringende und wertvolle Güter",
+    "customsTitle": "Zolldienstleistungen",
+    "customsDescription": "Umfassende Unterstützung bei Zollverfahren und Dokumentation",
+    "globalTitle": "Globale Logistik",
+    "globalDescription": "Integrierte Logistiklösungen für den internationalen Handel",
+    "internationalTitle": "Internationaler Transport",
+    "internationalDescription": "Transportdienstleistungen zu allen weltweiten Zielen",
+    "distributionTitle": "Verteilung & Lieferung",
+    "distributionDescription": "Verteilungs- und Lieferdienste bis zum Endziel",
+    "trainTitle": "Schienentransport",
+    "trainDescription": "Schienengüterverkehr, eine wirtschaftliche und effiziente Lösung für große Volumen",
+    "combinedTitle": "Kombinierter Transport",
+    "combinedDescription": "Individuelle multimodale Lösungen: Güterlieferung durch Routen-Kombinationen (Straße, Schiene, See, Luft) nach Kundenbedarf"
+  },
+  "footer": {
+    "companyName": "BDGCARGO",
+    "companyDescription": "BDGCARGO - das führende Unternehmen in Rumänien für internationalen Transport und Logistik.",
+    "servicesTitle": "Dienstleistungen",
+    "serviceMaritime": "Seetransport",
+    "serviceTerrestrial": "Straßentransport",
+    "serviceAerial": "Lufttransport",
+    "serviceCustoms": "Zolldienstleistungen",
+    "quickLinksTitle": "Schnellzugriffe",
+    "quickLinkAboutUs": "Über uns",
+    "quickLinkCompany": "BDGCARGO",
+    "contactTitle": "Kontakt",
+    "contactPhone": "+40 753 850 578",
+    "contactEmail": "Office@bdgcargo.com",
+    "contactAddress": "Rumänien"
+  },
+  "language": {
+    "en": "Englisch",
+    "da": "Dänisch",
+    "no": "Norwegisch",
+    "sv": "Schwedisch",
+    "de": "Deutsch",
+    "ro": "Rumänisch"
+  }
+}

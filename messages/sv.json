@@ -1,0 +1,105 @@
+{
+  "aboutSection": {
+    "title": "Om {company}",
+    "description": "{company} är ett företag från Rumänien inom internationell transport och logistik. Vi erbjuder ett komplett utbud av logistiktjänster, inklusive sjö-, land- och flygtransport.",
+    "clients": "Nöjda kunder",
+    "deliveries": "Lyckade leveranser",
+    "countries": "Länder"
+  },
+  "header": {
+    "modTransport": "Transportläge",
+    "aboutUs": "Om oss",
+    "services": "Transporttjänster",
+    "contact": "Kontakt",
+    "callUs": "Ring oss",
+    "phone": "Telefon"
+  },
+  "hero": {
+    "fastTransport": "Snabb och",
+    "affordable": "Prisvärd",
+    "international": "Internationell transport",
+    "subtitle": "BDGCARGO - din pålitliga partner inom internationell transport och logistik",
+    "learnMore": "Läs mer"
+  },
+  "additionalServices": {
+    "sectionTitleMain": "Tilläggs",
+    "sectionTitleAccent": "Tjänster",
+    "insuranceTitle": "Transportförsäkring",
+    "insuranceDescription": "Omfattande försäkringstjänster för skydd av gods under transport",
+    "consultingTitle": "Logistikkonsultation",
+    "consultingDescription": "Specialiserad konsultation för optimering av logistikprocesser",
+    "specializedTransportTitle": "Specialiserad transport",
+    "specializedTransportDescription": "Specialiserad transport för speciella och överdimensionerade varor"
+  },
+  "contactSection": {
+    "titleMain": "Kontakta oss",
+    "titleAccent": "Nu",
+    "subtitle": "Vi är här för att hjälpa dig med alla dina transport- och logistikbehov",
+    "phoneTitle": "Telefon",
+    "phoneValue": "+40 753 850 578",
+    "emailTitle": "E-post",
+    "emailValue": "Office@bdgcargo.com",
+    "addressTitle": "Företagsadress",
+    "addressValue": "Rumänien"
+  },
+  "partnersSection": {
+    "sectionTitleMain": "Våra",
+    "sectionTitleAccent": "Partners",
+    "subtitle": "Vi samarbetar med världens största logistikoperatörer för att erbjuda dig tjänster av högsta kvalitet"
+  },
+  "serviceCards": {
+    "truckTitle": "Vägtransport",
+    "truckDescription": "Vägtransport inkluderar transport av gods med lastbilar",
+    "truckDetails": "Detaljer",
+    "shipTitle": "Sjö- och oceantransport",
+    "shipDescription": "Transport av gods på havet med containrar",
+    "shipDetails": "Detaljer",
+    "planeTitle": "Flygtransport",
+    "planeDescription": "Snabb internationell leverans med flygfrakt",
+    "planeDetails": "Detaljer"
+  },
+  "servicesGrid": {
+    "truckTitle": "Vägtransport",
+    "truckDescription": "Professionell vägtransport för alla typer av gods",
+    "warehouseTitle": "Lagerhållningstjänster",
+    "warehouseDescription": "Kompletta lösningar för lagerhållning och inventariehantering",
+    "planeTitle": "Flygtransport",
+    "planeDescription": "Snabb flygtransport för brådskande och värdefulla varor",
+    "customsTitle": "Tulltjänster",
+    "customsDescription": "Fullständig hjälp med tullprocedurer och dokumentation",
+    "globalTitle": "Global logistik",
+    "globalDescription": "Integrerade logistiklösningar för internationell handel",
+    "internationalTitle": "Internationell transport",
+    "internationalDescription": "Transporttjänster till alla destinationer i världen",
+    "distributionTitle": "Distribution & Leverans",
+    "distributionDescription": "Distributions- och leveranstjänster till slutdestination",
+    "trainTitle": "Järnvägstransport",
+    "trainDescription": "Järnvägsgods, en ekonomisk och effektiv lösning för stora volymer",
+    "combinedTitle": "Kombinerad transport",
+    "combinedDescription": "Skräddarsydda multimodala lösningar: gods levereras genom kombinationer av rutter (väg, järnväg, sjö, flyg) enligt kundens behov"
+  },
+  "footer": {
+    "companyName": "BDGCARGO",
+    "companyDescription": "BDGCARGO - det ledande företaget i Rumänien inom internationell transport och logistik.",
+    "servicesTitle": "Tjänster",
+    "serviceMaritime": "Sjötransport",
+    "serviceTerrestrial": "Vägtransport",
+    "serviceAerial": "Lufttransport",
+    "serviceCustoms": "Tulltjänster",
+    "quickLinksTitle": "Snabblänkar",
+    "quickLinkAboutUs": "Om oss",
+    "quickLinkCompany": "BDGCARGO",
+    "contactTitle": "Kontakt",
+    "contactPhone": "+40 753 850 578",
+    "contactEmail": "Office@bdgcargo.com",
+    "contactAddress": "Rumänien"
+  },
+  "language": {
+    "en": "Engelska",
+    "da": "Danska",
+    "no": "Norska",
+    "sv": "Svenska",
+    "de": "Tyska",
+    "ro": "Rumänska"
+  }
+}

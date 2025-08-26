@@ -1,35 +1,37 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export function AboutSection() {
+  const t = useTranslations("aboutSection");
+  const company = "BDGCARGO";
+
   return (
     <section id="despre-noi" className="bg-white py-20">
       <div className="container mx-auto px-4">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div>
             <h2 className="mb-8 text-4xl font-bold">
-              Despre <span className="text-blue-600">BDGCARGO</span>
+              {t("title", { company })}
             </h2>
             <p className="mb-8 text-lg leading-relaxed text-gray-600">
-              BDGCARGO este compania din România în domeniul transportului
-              internațional și logisticii. Oferim o gamă completă de servicii
-              logistice, care include transportul maritim, terestru și aerian.
+              {t("description", { company })}
             </p>
             <div className="grid grid-cols-3 gap-8 text-center">
               <div>
                 <div className="mb-2 text-3xl font-bold text-blue-600">
                   1000+
                 </div>
-                <div className="text-gray-600">Clienți mulțumiți</div>
+                <div className="text-gray-600">{t("clients")}</div>
               </div>
               <div>
                 <div className="mb-2 text-3xl font-bold text-blue-600">
                   500.000+
                 </div>
-                <div className="text-gray-600">Livrari reusite</div>
+                <div className="text-gray-600">{t("deliveries")}</div>
               </div>
               <div>
                 <div className="mb-2 text-3xl font-bold text-blue-600">50+</div>
-                <div className="text-gray-600">Țări</div>
+                <div className="text-gray-600">{t("countries")}</div>
               </div>
             </div>
           </div>
