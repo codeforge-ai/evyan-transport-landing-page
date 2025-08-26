@@ -1,4 +1,5 @@
 import { Phone } from "lucide-react";
+import Link from "next/link";
 
 export function Header() {
   return (
@@ -6,43 +7,45 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <nav className="hidden items-center space-x-8 md:flex">
-            <a
-              href="#"
-              className="text-gray-700 transition-colors hover:text-blue-600"
-            >
-              Transport Internațional
-            </a>
-            <a
-              href="#"
-              className="text-gray-700 transition-colors hover:text-blue-600"
-            >
-              Servicii Logistice
-            </a>
-            <a
-              href="#"
-              className="text-gray-700 transition-colors hover:text-blue-600"
-            >
-              Despre Noi
-            </a>
-            <a
-              href="#"
-              className="text-gray-700 transition-colors hover:text-blue-600"
-            >
-              TopTrans Academy
-            </a>
-            <a
-              href="#"
-              className="text-gray-700 transition-colors hover:text-blue-600"
-            >
-              Contact
-            </a>
+            <Link href="" scroll={true}>
+              <p className="text-gray-700 transition-colors hover:text-blue-600">
+                BDGCARGO
+              </p>
+            </Link>
+            <Link href="#servicii-logistice" scroll={true}>
+              <p className="text-gray-700 transition-colors hover:text-blue-600">
+                Mod transport
+              </p>
+            </Link>
+            <Link href="#despre-noi" scroll={true}>
+              <p className="text-gray-700 transition-colors hover:text-blue-600">
+                Despre Noi
+              </p>
+            </Link>
+            <Link href="#transport-international" scroll={true}>
+              <p className="text-gray-700 transition-colors hover:text-blue-600">
+                Servicii Transport
+              </p>
+            </Link>
+
+            <Link href="#contact" scroll={true}>
+              <p className="text-gray-700 transition-colors hover:text-blue-600">
+                Contact
+              </p>
+            </Link>
           </nav>
 
           {/* Contact Info */}
           <div className="flex items-center space-x-4">
             <div className="text-right text-sm">
-              <div className="text-gray-600">Numărul de contact</div>
-              <div className="font-semibold text-blue-600">+40 751 123 456</div>
+              <div className="font-semibold text-blue-600">
+                <Link
+                  href="tel:+40753850578"
+                  className="text-gray-600 transition-colors hover:text-blue-600"
+                >
+                  +40 753 850 578
+                </Link>
+              </div>
             </div>
             <Phone className="h-5 w-5 text-blue-600" />
           </div>

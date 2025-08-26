@@ -1,5 +1,5 @@
-@import 'tailwindcss';
-@import 'tw-animate-css';
+@import "tailwindcss";
+@import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -152,4 +152,8 @@
 
 .animate-stagger-1 {
   animation-delay: 0.15s;
+}
+
+html {
+  scroll-behavior: smooth;
 }

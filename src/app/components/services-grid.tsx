@@ -1,7 +1,16 @@
 "use client";
 
 import { Card, CardContent } from "@/shared/components/ui/card";
-import { Truck, Ship, Plane, Package, Warehouse, Globe } from "lucide-react";
+import {
+  Truck,
+  Ship,
+  Plane,
+  Package,
+  Warehouse,
+  Globe,
+  Train,
+  Layers,
+} from "lucide-react";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 
@@ -62,6 +71,20 @@ const services = [
     description: "Servicii de distribuție și livrare la destinație finală",
     image: "/delivery-truck-distribution-center.png",
   },
+  {
+    icon: <Train className="h-12 w-12 text-indigo-500" />,
+    title: "Transport Feroviar",
+    description:
+      "Transport de marfă pe cale ferată, soluție economică și eficientă pentru volume mari",
+    image: "/rail-freight-transport.png",
+  },
+  {
+    icon: <Layers className="h-12 w-12 text-emerald-500" />,
+    title: "Transport Combinat",
+    description:
+      "Soluții multimodale personalizate: marfă livrată prin combinații de rută (rutier, feroviar, maritim, aerian) în funcție de nevoile clientului",
+    image: "/combined-multimodal-logistics.png",
+  },
 ];
 
 export default function ServicesGrid() {
@@ -85,7 +108,11 @@ export default function ServicesGrid() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="bg-gray-50 py-20">
+    <section
+      id="transport-international"
+      ref={sectionRef}
+      className="bg-gray-50 py-20"
+    >
       <div className="container mx-auto px-4">
         <h2 className="animate-fade-in-up mb-4 text-center text-4xl font-bold opacity-0">
           Transport <span className="text-blue-600">Internațional</span>

@@ -4,36 +4,52 @@ import Image from "next/image";
 
 const partners = [
   {
-    name: "DHL",
-    logo: "/dhl-logo.png",
-  },
-  {
-    name: "FedEx",
-    logo: "/fedex-logo.png",
-  },
-  {
-    name: "UPS",
-    logo: "/generic-delivery-logo.png",
-  },
-  {
-    name: "Maersk",
-    logo: "/maersk-shipping-logo.png",
+    name: "COSCO Shipping",
+    logo: "/cosco-shipping-logo.webp",
   },
   {
     name: "MSC",
-    logo: "/msc-mediterranean-shipping-logo.png",
+    logo: "/msc-logo.webp",
   },
   {
-    name: "CMA CGM",
-    logo: "/cma-cgm-shipping-logo.png",
-  },
-  {
-    name: "COSCO",
-    logo: "/placeholder.svg?height=80&width=120&text=COSCO",
+    name: "ZIM",
+    logo: "/zim-logo.webp",
   },
   {
     name: "Hapag-Lloyd",
-    logo: "/placeholder.svg?height=80&width=120&text=Hapag-Lloyd",
+    logo: "/hapag-lloyd-logo.webp",
+  },
+  {
+    name: "Turkish Airlines",
+    logo: "/turkish-airlines-logo.webp",
+  },
+  {
+    name: "Lufthansa",
+    logo: "/lufthansa-logo.webp",
+  },
+  {
+    name: "CMA CGM",
+    logo: "/cma-cgm-logo.webp",
+  },
+  {
+    name: "Evergreen",
+    logo: "/evergreen-logo.webp",
+  },
+  {
+    name: "Sealand",
+    logo: "/sealand-logo.webp",
+  },
+  {
+    name: "Maersk",
+    logo: "/maersk-logo.webp",
+  },
+  {
+    name: "ONE",
+    logo: "/one-logo.webp",
+  },
+  {
+    name: "Coyne Airways",
+    logo: "/coyne-airways-logo.webp",
   },
 ];
 

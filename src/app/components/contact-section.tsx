@@ -26,7 +26,7 @@ export function ContactSection() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="bg-gray-50 py-20">
+    <section id="contact" ref={sectionRef} className="bg-gray-50 py-20">
       <div className="container mx-auto px-4">
         <h2 className="animate-fade-in-up mb-4 text-center text-4xl font-bold">
           Contactează-ne <span className="text-blue-600">Acum</span>
@@ -36,7 +36,7 @@ export function ContactSection() {
           logistică
         </p>
 
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
           {/* Contact Information Cards Only */}
           <Card className="contact-item opacity-0 transition-all duration-300 hover:shadow-lg">
             <CardContent className="p-6">
@@ -46,8 +46,12 @@ export function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-800">Telefon</h3>
-                  <p className="text-gray-600">+40 21 123 4567</p>
-                  <p className="text-gray-600">+40 21 123 4568</p>
+                  <a
+                    href="tel:+40753850578"
+                    className="text-gray-600 transition-colors hover:text-blue-600"
+                  >
+                    +40 753 850 578
+                  </a>
                 </div>
               </div>
             </CardContent>
@@ -61,8 +65,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-800">Email</h3>
-                  <p className="text-gray-600">info@toptrans-global.com</p>
-                  <p className="text-gray-600">office@toptrans-global.com</p>
+                  <p className="text-gray-600">Office@bdgcargo.com</p>
                 </div>
               </div>
             </CardContent>
@@ -75,24 +78,8 @@ export function ContactSection() {
                   <MapPin className="h-6 w-6 text-red-600" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-800">Adresă</h3>
-                  <p className="text-gray-600">Str. Transportului nr. 123</p>
-                  <p className="text-gray-600">București, România</p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card className="contact-item opacity-0 transition-all duration-300 hover:shadow-lg">
-            <CardContent className="p-6">
-              <div className="flex items-center space-x-4">
-                <div className="rounded-full bg-purple-100 p-3">
-                  <Clock className="h-6 w-6 text-purple-600" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-800">Program</h3>
-                  <p className="text-gray-600">Luni - Vineri: 08:00 - 18:00</p>
-                  <p className="text-gray-600">Sâmbătă: 09:00 - 14:00</p>
+                  <h3 className="font-semibold text-gray-800">Adresă firma</h3>
+                  <p className="text-gray-600">România</p>
                 </div>
               </div>
             </CardContent>

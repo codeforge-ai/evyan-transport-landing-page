@@ -3,7 +3,7 @@ import { ArrowRight, Play } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative h-screen overflow-hidden bg-gradient-to-r from-blue-900/80 to-blue-800/60">
+    <section className="relative h-dvh overflow-hidden bg-gradient-to-r from-slate-900/60 to-slate-900/60">
       <div className="absolute inset-0 h-full w-full">
         <div className="absolute top-0 left-0 h-full w-full">
           <iframe
@@ -32,8 +32,8 @@ export function Hero() {
           </h1>
 
           <p className="mb-8 text-xl text-blue-100">
-            TopTrans Global - partenerul tău de încredere în domeniul
-            transportului internațional și logisticii
+            BDGCARGO - partenerul tău de încredere în domeniul transportului
+            internațional și logisticii
           </p>
 
           <div className="flex gap-4">
@@ -43,14 +43,6 @@ export function Hero() {
             >
               Află Mai Mult
               <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-white bg-transparent px-8 py-3 text-white hover:bg-white hover:text-blue-900"
-            >
-              <Play className="mr-2 h-5 w-5" />
-              Urmărește Video
             </Button>
           </div>
         </div>

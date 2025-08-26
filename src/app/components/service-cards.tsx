@@ -2,7 +2,7 @@
 
 import { Card, CardContent } from "@/shared/components/ui/card";
 import { Button } from "@/shared/components/ui/button";
-import { Truck, Ship, Package } from "lucide-react";
+import { Truck, Ship, Plane } from "lucide-react";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 
@@ -23,12 +23,12 @@ const services = [
     image: "/cargo-ship-maritime-transport.png",
   },
   {
-    icon: <Package className="h-8 w-8 text-red-500" />,
-    title: "Servicii Vamale",
+    icon: <Plane className="h-8 w-8 text-sky-500" />,
+    title: "Transport Aerian",
     description:
-      "Servicii complete de vămuire pentru transportul internațional",
+      "Livrare rapidă internațională prin transport aerian de mărfuri",
     link: "Detalii",
-    image: "/customs-warehouse-logistics.png",
+    image: "/air-freight-logistics.jpg",
   },
 ];
 
@@ -53,7 +53,11 @@ export function ServiceCards() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="bg-gray-50 py-16">
+    <section
+      id="servicii-logistice"
+      ref={sectionRef}
+      className="bg-gray-50 py-16"
+    >
       <div className="container mx-auto px-4">
         <div className="grid gap-8 md:grid-cols-3">
           {services.map((service, index) => (

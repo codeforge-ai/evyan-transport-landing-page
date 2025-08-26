@@ -2,29 +2,30 @@ import Image from "next/image";
 
 export function AboutSection() {
   return (
-    <section className="bg-white py-20">
+    <section id="despre-noi" className="bg-white py-20">
       <div className="container mx-auto px-4">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div>
             <h2 className="mb-8 text-4xl font-bold">
-              Despre <span className="text-blue-600">TopTrans</span>
+              Despre <span className="text-blue-600">BDGCARGO</span>
             </h2>
             <p className="mb-8 text-lg leading-relaxed text-gray-600">
-              TopTrans Global este compania lider din România în domeniul
-              transportului internațional și logisticii. Oferim o gamă completă
-              de servicii logistice, care include transportul maritim, terestru
-              și aerian.
+              BDGCARGO este compania din România în domeniul transportului
+              internațional și logisticii. Oferim o gamă completă de servicii
+              logistice, care include transportul maritim, terestru și aerian.
             </p>
             <div className="grid grid-cols-3 gap-8 text-center">
               <div>
                 <div className="mb-2 text-3xl font-bold text-blue-600">
-                  500+
+                  1000+
                 </div>
                 <div className="text-gray-600">Clienți mulțumiți</div>
               </div>
               <div>
-                <div className="mb-2 text-3xl font-bold text-blue-600">15+</div>
-                <div className="text-gray-600">Ani de experiență</div>
+                <div className="mb-2 text-3xl font-bold text-blue-600">
+                  500.000+
+                </div>
+                <div className="text-gray-600">Livrari reusite</div>
               </div>
               <div>
                 <div className="mb-2 text-3xl font-bold text-blue-600">50+</div>
