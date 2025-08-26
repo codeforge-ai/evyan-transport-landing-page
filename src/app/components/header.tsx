@@ -6,12 +6,32 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-white shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
-          <nav className="hidden items-center space-x-8 md:flex">
-            <Link href="" scroll={true}>
-              <p className="text-gray-700 transition-colors hover:text-blue-600">
+          <Link href="" scroll={true}>
+            <svg
+              width="220"
+              height="60"
+              viewBox="0 0 220 60"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <defs>
+                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stopColor="#001F54" stopOpacity="1" />
+                  <stop offset="100%" stopColor="#F97316" stopOpacity="1" />
+                </linearGradient>
+              </defs>
+              <text
+                x="0"
+                y="40"
+                fontFamily="Arial, sans-serif"
+                fontWeight="700"
+                fontSize="36"
+                fill="url(#grad1)"
+              >
                 BDGCARGO
-              </p>
-            </Link>
+              </text>
+            </svg>
+          </Link>
+          <nav className="hidden items-center space-x-8 md:flex">
             <Link href="#servicii-logistice" scroll={true}>
               <p className="text-gray-700 transition-colors hover:text-blue-600">
                 Mod transport
