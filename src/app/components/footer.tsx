@@ -8,8 +8,30 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-4">
           {/* Company Info */}
           <div>
-            <div className="mb-6 inline-block rounded bg-blue-600 px-3 py-2 text-lg font-bold text-white">
-              BDGCARGO
+            <div className="bg-black-600 mb-6 inline-block rounded px-3 py-2 text-lg font-bold text-white">
+              <svg
+                width="220"
+                height="60"
+                viewBox="0 0 220 60"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stopColor="#001F54" stopOpacity="1" />
+                    <stop offset="100%" stopColor="#F97316" stopOpacity="1" />
+                  </linearGradient>
+                </defs>
+                <text
+                  x="0"
+                  y="40"
+                  fontFamily="Arial, sans-serif"
+                  fontWeight="700"
+                  fontSize="36"
+                  fill="url(#grad1)"
+                >
+                  BDGCARGO
+                </text>
+              </svg>
             </div>
             <p className="mb-6 leading-relaxed text-gray-300">
               BDGCARGO - compania lider din România în domeniul transportului
