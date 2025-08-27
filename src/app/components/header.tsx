@@ -12,14 +12,11 @@ export function Header() {
         <div className="flex h-16 items-center justify-between">
           <Link href="" scroll={true}>
             <Image
-              src="/bdgcargo_no_bg.png"
+              src="/logo.png"
               alt="logo"
               width={120}
               height={80}
-              className="max-h-16 max-w-full object-contain grayscale filter transition-all duration-300 hover:grayscale-0"
-              style={{
-                padding: "10px",
-              }}
+              className="max-h-[80px] max-w-full object-contain"
             />
           </Link>
           <nav className="hidden items-center space-x-8 md:flex">

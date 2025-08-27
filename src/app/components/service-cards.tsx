@@ -17,7 +17,7 @@ export function ServiceCards() {
       title: t("truckTitle"),
       description: t("truckDescription"),
       link: t("truckDetails"),
-      image: "/truck-transport-logistics.png",
+      image: "/truck-transport-logistics.webp",
     },
     {
       icon: <Ship className="h-8 w-8 text-blue-500" />,

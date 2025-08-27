@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BDGCARGO - International Transport & Logistics",
+  title: "BDG CARGO - International Transport & Logistics",
   description: "Your trusted partner in international transport and logistics",
 };
 

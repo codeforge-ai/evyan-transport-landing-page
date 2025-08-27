@@ -4,7 +4,7 @@ import { Parallax } from "react-scroll-parallax";
 
 export function AboutSection() {
   const t = useTranslations("aboutSection");
-  const company = "BDGCARGO";
+  const company = "BDG CARGO";
 
   return (
     <section id="despre-noi" className="bg-white py-20">

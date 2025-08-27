@@ -24,7 +24,9 @@ export function Hero() {
             <span className="text-blue-300">{t("international")}</span>
           </h1>
 
-          <p className="mb-8 bg-black text-xl text-blue-100">{t("subtitle")}</p>
+          <p className="text-white-100 mb-8 bg-black px-2 py-2 text-xl">
+            {t("subtitle")}
+          </p>
 
           <div className="flex gap-4">
             <Button
