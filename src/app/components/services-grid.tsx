@@ -14,6 +14,7 @@ import {
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { Parallax } from "react-scroll-parallax";
 
 export default function ServicesGrid() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -116,7 +117,7 @@ export default function ServicesGrid() {
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <CardContent className="p-0">
-                <div className="relative overflow-hidden rounded-t-lg">
+                <div className="relative z-30 overflow-hidden rounded-t-lg">
                   <Image
                     src={service.image || "/placeholder.svg"}
                     alt={service.title}
@@ -126,7 +127,15 @@ export default function ServicesGrid() {
                   />
                 </div>
                 <div className="p-6 text-center">
-                  <div className="mb-4 flex justify-center">{service.icon}</div>
+                  <Parallax
+                    translateY={[-50, 1]}
+                    className="text-content z-20"
+                    speed={200}
+                  >
+                    <div className="mb-4 flex justify-center">
+                      {service.icon}
+                    </div>
+                  </Parallax>
                   <h3 className="mb-4 text-lg font-semibold text-gray-800">
                     {service.title}
                   </h3>

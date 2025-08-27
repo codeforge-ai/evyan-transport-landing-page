@@ -8,7 +8,7 @@ export function Hero() {
   return (
     <section
       className="relative aspect-[1/1] h-screen max-h-svh w-svw bg-cover bg-center sm:h-2/4"
-      style={{ backgroundImage: "url('/road.jpg')" }}
+      style={{ backgroundImage: "url('/road.jpg')", width: "100%" }}
     >
       {/* Overlay (opțional, dacă vrei să întuneci fundalul puțin) */}
       <div className="absolute inset-0 bg-black/30" />

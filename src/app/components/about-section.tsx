@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { Parallax } from "react-scroll-parallax";
 
 export function AboutSection() {
   const t = useTranslations("aboutSection");
@@ -38,20 +39,32 @@ export function AboutSection() {
 
           <div className="relative">
             <div className="grid grid-cols-2 gap-4">
-              <Image
-                src="/large-cargo-ship-with-containers-at-sea.png"
-                alt="Cargo ship"
-                width={400}
-                height={300}
-                className="rounded-lg shadow-lg"
-              />
-              <Image
-                src="/shipping-containers-at-port-during-sunset.png"
-                alt="Port containers"
-                width={400}
-                height={300}
+              <Parallax translateY={[-40, 40]} className="rounded-lg shadow-lg">
+                <div style={{ height: 300 }}>
+                  <Image
+                    src="/large-cargo-ship-with-containers-at-sea.png"
+                    alt="Cargo ship"
+                    width={400}
+                    height={300}
+                    className="rounded-lg shadow-lg"
+                  />
+                </div>
+              </Parallax>
+
+              <Parallax
+                translateY={[40, -40]}
                 className="mt-8 rounded-lg shadow-lg"
-              />
+              >
+                <div style={{ height: 300 }}>
+                  <Image
+                    src="/shipping-containers-at-port-during-sunset.png"
+                    alt="Port containers"
+                    width={400}
+                    height={300}
+                    className="rounded-lg shadow-lg"
+                  />
+                </div>
+              </Parallax>
             </div>
             <div className="absolute -bottom-4 -left-4 h-24 w-24 rounded-full bg-blue-100 opacity-20" />
             <div className="absolute -top-4 -right-4 h-16 w-16 rounded-full bg-orange-100 opacity-30" />

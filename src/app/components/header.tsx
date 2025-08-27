@@ -2,6 +2,7 @@ import { Phone } from "lucide-react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { LanguageSwitcher } from "@/app/components/language-switcher";
+import Image from "next/image";
 
 export function Header() {
   const t = useTranslations("header");
@@ -10,29 +11,16 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link href="" scroll={true}>
-            <svg
-              width="220"
-              height="60"
-              viewBox="0 0 220 60"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <defs>
-                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stopColor="#001F54" stopOpacity="1" />
-                  <stop offset="100%" stopColor="#F97316" stopOpacity="1" />
-                </linearGradient>
-              </defs>
-              <text
-                x="0"
-                y="40"
-                fontFamily="Arial, sans-serif"
-                fontWeight="700"
-                fontSize="36"
-                fill="url(#grad1)"
-              >
-                BDGCARGO
-              </text>
-            </svg>
+            <Image
+              src="/bdgcargo_no_bg.png"
+              alt="logo"
+              width={120}
+              height={80}
+              className="max-h-16 max-w-full object-contain grayscale filter transition-all duration-300 hover:grayscale-0"
+              style={{
+                padding: "10px",
+              }}
+            />
           </Link>
           <nav className="hidden items-center space-x-8 md:flex">
             <Link href="#servicii-logistice" scroll={true}>

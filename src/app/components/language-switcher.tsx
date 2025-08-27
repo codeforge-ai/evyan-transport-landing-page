@@ -36,7 +36,7 @@ export function LanguageSwitcher() {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="sm" className="flex items-center gap-2">
-          <span className="h-4 w-4">{currentLanguage?.flag}</span>
+          <span className="h-auto w-4">{currentLanguage?.flag}</span>
           <span className="hidden sm:inline">{t(locale)}</span>
           <span className="sm:hidden">{currentLanguage?.flag}</span>
         </Button>
