@@ -6,6 +6,7 @@ import Image from "next/image";
 
 export function Header() {
   const t = useTranslations("header");
+
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
       <div className="container mx-auto px-4">
