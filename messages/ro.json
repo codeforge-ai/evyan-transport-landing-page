@@ -40,7 +40,7 @@
     "emailTitle": "Email",
     "emailValue": "Office@bdgcargo.com",
     "addressTitle": "Adresă firmă",
-    "addressValue": "România"
+    "addressValue": "Calea Dorobanti 32, Sector 1, București, România"
   },
   "partnersSection": {
     "sectionTitleMain": "Partenerii",
@@ -76,7 +76,8 @@
     "trainTitle": "Transport Feroviar",
     "trainDescription": "Transport de marfă pe cale ferată, soluție economică și eficientă pentru volume mari",
     "combinedTitle": "Transport Combinat",
-    "combinedDescription": "Soluții multimodale personalizate: marfă livrată prin combinații de rută (rutier, feroviar, maritim, aerian) în funcție de nevoile clientului"
+    "combinedDescription": "Soluții multimodale personalizate: marfă livrată prin combinații de rută (rutier, feroviar, maritim, aerian) în funcție de nevoile clientului",
+    "fullServiceDescription": "Oferim o gamă completă de servicii logistice către orice destinație din lume"
   },
   "footer": {
     "companyName": "BDG CARGO",

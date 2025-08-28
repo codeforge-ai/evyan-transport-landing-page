@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Button } from "@/shared/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -11,7 +12,7 @@ export function Hero() {
       style={{ backgroundImage: "url('/road.jpg')", width: "100%" }}
     >
       {/* Overlay (opțional, dacă vrei să întuneci fundalul puțin) */}
-      <div className="absolute inset-0 bg-black/30" />
+      <div className="absolute inset-0 bg-black/40" />
 
       {/* Text peste imagine */}
       <div className="absolute inset-0 z-20 container mx-auto flex h-full items-center px-4">
@@ -24,7 +25,7 @@ export function Hero() {
             <span className="text-blue-300">{t("international")}</span>
           </h1>
 
-          <p className="text-white-100 mb-8 bg-black px-2 py-2 text-xl">
+          <p className="text-white-100 mb-8 px-2 py-2 text-xl">
             {t("subtitle")}
           </p>
 
@@ -50,9 +51,11 @@ export function Hero() {
         translateY={[300, -350]}
         className="pointer-events-none absolute right-5 bottom-70 z-10 sm:bottom-10 md:right-1 md:bottom-25 lg:right-1 lg:bottom-25"
       >
-        <img
-          src="truck-nobg.png"
+        <Image
           alt="Camion"
+          width={220} // adjust width as needed
+          height={200} // adjust height as needed
+          src="/truck-nobg.png"
           className="h-auto w-80 md:w-lg lg:w-2xl xl:w-2xl"
         />
       </Parallax>

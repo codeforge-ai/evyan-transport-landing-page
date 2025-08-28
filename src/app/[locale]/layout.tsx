@@ -1,10 +1,10 @@
 import type React from "react";
-import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { getMetadata } from "./metadata";
 
 import { LocaleType } from "@/types/locale";
 
@@ -20,11 +20,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "BDG CARGO - International Transport & Logistics",
-  description: "Your trusted partner in international transport and logistics",
-};
-
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -34,12 +29,12 @@ export default async function LocaleLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
+  params: Promise<{ locale: LocaleType }>;
 }>) {
   const { locale } = await params;
 
   // Ensure that the incoming `locale` is valid
-  if (!routing.locales.includes(locale as LocaleType)) notFound();
+  if (!routing.locales.includes(locale)) notFound();
 
   const messages = await getMessages();
 
@@ -54,4 +49,14 @@ export default async function LocaleLayout({
       </body>
     </html>
   );
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: LocaleType }>;
+}) {
+  const { locale } = await params;
+
+  return getMetadata(locale);
 }

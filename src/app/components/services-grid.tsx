@@ -102,11 +102,13 @@ export default function ServicesGrid() {
     >
       <div className="container mx-auto px-4">
         <h2 className="animate-fade-in-up mb-4 text-center text-4xl font-bold opacity-0">
-          Transport <span className="text-blue-600">Internațional</span>
+          {t("internationalTitle")?.split(" ")[1]}{" "}
+          <span className="text-blue-600">
+            {t("internationalTitle")?.split(" ")[0]}
+          </span>
         </h2>
         <p className="animate-fade-in-up animate-stagger-1 mx-auto mb-16 max-w-2xl text-center text-gray-600 opacity-0">
-          Oferim o gamă completă de servicii logistice către orice destinație
-          din lume
+          {t("fullServiceDescription")}
         </p>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">

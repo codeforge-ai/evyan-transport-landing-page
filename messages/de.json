@@ -40,7 +40,7 @@
     "emailTitle": "E-Mail",
     "emailValue": "Office@bdgcargo.com",
     "addressTitle": "Firmenadresse",
-    "addressValue": "Rumänien"
+    "addressValue": "Calea Dorobanti 32, Sektor 1, Bukarest, Rumänisch"
   },
   "partnersSection": {
     "sectionTitleMain": "Unsere",
@@ -76,7 +76,8 @@
     "trainTitle": "Schienentransport",
     "trainDescription": "Schienengüterverkehr, eine wirtschaftliche und effiziente Lösung für große Volumen",
     "combinedTitle": "Kombinierter Transport",
-    "combinedDescription": "Individuelle multimodale Lösungen: Güterlieferung durch Routen-Kombinationen (Straße, Schiene, See, Luft) nach Kundenbedarf"
+    "combinedDescription": "Individuelle multimodale Lösungen: Güterlieferung durch Routen-Kombinationen (Straße, Schiene, See, Luft) nach Kundenbedarf",
+    "fullServiceDescription": "Wir bieten ein komplettes Spektrum logistischer Dienstleistungen zu jedem Ziel weltweit"
   },
   "footer": {
     "companyName": "BDG CARGO",

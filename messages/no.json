@@ -40,7 +40,7 @@
     "emailTitle": "E-post",
     "emailValue": "Office@bdgcargo.com",
     "addressTitle": "Firmaadresse",
-    "addressValue": "Romania"
+    "addressValue": "Calea Dorobanți 32, Sektor 1, Bucuresti, Romania"
   },
   "partnersSection": {
     "sectionTitleMain": "Våre",
@@ -76,7 +76,8 @@
     "trainTitle": "Jernbanetransport",
     "trainDescription": "Godstransport med tog, en økonomisk og effektiv løsning for store volumer",
     "combinedTitle": "Kombinert transport",
-    "combinedDescription": "Skreddersydde multimodale løsninger: varer leveres via rute-kombinasjoner (vei, jernbane, sjø, luft) etter kundens behov"
+    "combinedDescription": "Skreddersydde multimodale løsninger: varer leveres via rute-kombinasjoner (vei, jernbane, sjø, luft) etter kundens behov",
+    "fullServiceDescription": "Vi tilbyr et komplett utvalg av logistikktjenester til enhver destinasjon i verden"
   },
   "footer": {
     "companyName": "BDG CARGO",

@@ -40,7 +40,7 @@
     "emailTitle": "E-post",
     "emailValue": "Office@bdgcargo.com",
     "addressTitle": "Företagsadress",
-    "addressValue": "Rumänien"
+    "addressValue": "Calea Dorobanti 32, Sektor 1, Bukarest, Rumänien"
   },
   "partnersSection": {
     "sectionTitleMain": "Våra",
@@ -76,7 +76,8 @@
     "trainTitle": "Järnvägstransport",
     "trainDescription": "Järnvägsgods, en ekonomisk och effektiv lösning för stora volymer",
     "combinedTitle": "Kombinerad transport",
-    "combinedDescription": "Skräddarsydda multimodala lösningar: gods levereras genom kombinationer av rutter (väg, järnväg, sjö, flyg) enligt kundens behov"
+    "combinedDescription": "Skräddarsydda multimodala lösningar: gods levereras genom kombinationer av rutter (väg, järnväg, sjö, flyg) enligt kundens behov",
+    "fullServiceDescription": "Vi erbjuder ett komplett utbud av logistiktjänster till alla destinationer i världen"
   },
   "footer": {
     "companyName": "BDG CARGO",

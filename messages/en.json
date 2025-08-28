@@ -40,7 +40,7 @@
     "emailTitle": "Email",
     "emailValue": "Office@bdgcargo.com",
     "addressTitle": "Company Address",
-    "addressValue": "Romania"
+    "addressValue": "Calea Dorobanti 32, Sector 1, Bucharest, Romania"
   },
   "partnersSection": {
     "sectionTitleMain": "Our",
@@ -76,7 +76,8 @@
     "trainTitle": "Rail Transport",
     "trainDescription": "Rail freight, an economical and efficient solution for large volumes",
     "combinedTitle": "Combined Transport",
-    "combinedDescription": "Custom multimodal solutions: goods delivered by route combinations (road, rail, sea, air) according to client needs"
+    "combinedDescription": "Custom multimodal solutions: goods delivered by route combinations (road, rail, sea, air) according to client needs",
+    "fullServiceDescription": "We offer a complete range of logistics services to any destination in the world"
   },
   "footer": {
     "companyName": "BDG CARGO",
